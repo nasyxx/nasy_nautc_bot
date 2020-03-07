@@ -1,0 +1,18 @@
+[build-system]
+build-backend = "pdm.builders.api"
+requires = ["pdm"]
+
+[tool]
+[tool.pdm]
+author = "Nasy <nasyxx+git@gmail.com>"
+description = ""
+homepage = ""
+license = "GPL-3"
+name = "nasy_nautc_bot"
+python_requires = ">=3.7"
+version = "0.1.0"
+
+[tool.pdm.dependencies]
+python-telegram-bot = "<13.0.0,>=12.4.2"
+
+[tool.pdm.dev-dependencies]
