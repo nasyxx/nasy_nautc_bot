@@ -80,7 +80,7 @@ def convert_it(update: Update, context: CallbackContext) -> None:
             )
             + 5
         ],
-        cache_time=5,
+        cache_time=600,
         next_offset=str(offset_to_int(update.inline_query.offset) + 5),
     )
 
