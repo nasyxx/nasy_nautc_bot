@@ -14,5 +14,6 @@ version = "0.1.0"
 
 [tool.pdm.dependencies]
 python-telegram-bot = "<13.0.0,>=12.4.2"
+nautc = "<2.0.0,>=1.1.0"
 
 [tool.pdm.dev-dependencies]
